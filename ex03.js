@@ -1,8 +1,6 @@
-let nota = 6
-if (nota > 5) {
-    console.log(`${nota} Aprovado`);  
-} else if (nota = 5) {
-    console.log(`${nota} Recuperação`);
-} else if (nota < 5){
-    console.log(`${nota} Reprovado`);
+let idade = 17;
+if (idade >= 18) {
+    console.log(`${idade} é maior que 18.`);
+} else if (idade < 18) {
+    console.log(`${idade} é menor que 18`);
 }
